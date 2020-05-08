@@ -1,0 +1,12 @@
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\bin\Debug\utilituSearchFile.exe.config
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\bin\Debug\utilituSearchFile.exe
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\bin\Debug\utilituSearchFile.pdb
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.csprojAssemblyReference.cache
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.Properties.Resources.resources
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.csproj.GenerateResource.cache
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.csproj.CoreCompileInputs.cache
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.exe
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.pdb
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.Form_expansionFile.resources
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.Form_main.resources
+D:\Документы\Visual Studio 2017\Projects\utilituSearchFile\utilituSearchFile\obj\Debug\utilituSearchFile.Form_formatSearch.resources

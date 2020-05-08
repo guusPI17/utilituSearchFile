@@ -1,0 +1,20 @@
+ return Directory.EnumerateFiles(path, searchPattern)
+                .Where(f => (new FileInfo(f).Attributes & (FileAttributes.Hidden)) == FileAttributes.Hidden)
+                               .Union(Directory.EnumerateDirectories(path)
+                .Where(f => (new FileInfo(f).Attributes & (FileAttributes.Hidden)) == FileAttributes.Hidden)
+                               .SelectMany(d =>
+                               {
+                                   if (worker.CancellationPending)
+                                   {
+                                       e.Cancel = true;
+                                       return null;
+                                   }
+                                   try
+                                   {
+                                       return GetAllFiles(d, searchPattern, maskFile, maskDir, worker, e);
+                                   }
+                                   catch (UnauthorizedAccessException)
+                                   {
+                                       return Enumerable.Empty<String>();
+                                   }
+                               }));
