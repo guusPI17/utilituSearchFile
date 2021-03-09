@@ -1,1 +1,2 @@
-# utilituSearchFile
+# utilituSearchFile  
+Программа по поиску файлов по совпадению текста. Написана на Windows Forms C#. Написана на 3 курсе
