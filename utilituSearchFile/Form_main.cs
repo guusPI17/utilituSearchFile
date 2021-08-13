@@ -156,6 +156,9 @@ namespace utilituSearchFile
                 DirectoryInfo dir = new DirectoryInfo(dirPath);
                 
                 IEnumerable<String> files = GetAllFiles(dir.FullName, args[1] as string, worker, e);
+                //
+                // НЕТУ ВРЕМЕНИ ИСКАТЬ РЕШЕНИЕ, СЛЕДОВАТЕЛЬНО ПРОСТО ПЕРЕБОР
+                //
                 foreach (var file in files)
                 {
                     if (listFormatSearch.Find(item => item.Text == "системный" && item.Checked==true) != null
